@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "alt+cmd+s",
+		"command": "-workbench.action.files.saveAll"
+	},
+	{
+		"key": "alt+cmd+s",
+		"command": "workbench.files.action.showActiveFileInExplorer"
+	},
+	{
+		"key": "alt+cmd+\\",
+		"command": "-workbench.files.action.showActiveFileInExplorer"
+	}
+]
