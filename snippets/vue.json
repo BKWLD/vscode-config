@@ -1,0 +1,35 @@
+{
+	"Template": {
+		"prefix": "template",
+		"description": "Bukwild ☕️-Vue template",
+		"body": [
+			"<!-- $1 -->",
+			"",
+			"<template lang='pug'>",
+			"",
+			"$2",
+			"",
+			"</template>",
+			"",
+			"<!-- ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->",
+			"",
+			"<script lang='coffee'>",
+			"# export default",
+			"# 	components:",
+			"# 	props: []",
+			"# 	data: ->",
+			"# 	computed:",
+			"# 	watch:",
+			"# 	methods:",
+			"</script>",
+			"",
+			"<!-- ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->",
+			"",
+			"<style lang='stylus' scoped>",
+			"",
+			"",
+			"",
+			"</style>",
+		]
+	}
+}
