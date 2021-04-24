@@ -1,0 +1,109 @@
+{
+    // Required --------------------------------------------------------------
+
+    // So you're not surprised by formatting later
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+
+    // Wrap lines at 80
+    "editor.rulers": [ 80 ],
+    "editor.wordWrap": "on",
+
+    // Tabs over spaces! Ccan get overridden by editorconfig
+    "editor.tabSize": 2,
+    "editor.insertSpaces": false,
+
+    // Cleanup whitespace at the end of lines
+    "files.trimTrailingWhitespace": true,
+
+    // Recommended -----------------------------------------------------------
+
+    // Helps you debug whitespace issues
+    "editor.renderWhitespace": "boundary",
+
+    // I don't like these formatters
+    "html.format.enable": false,
+    "vetur.format.defaultFormatter.html": "none",
+    "vetur.format.defaultFormatter.pug": "none",
+    "vetur.format.defaultFormatter.stylus": "none",
+    "javascript.format.enable": false,
+    "prettier.disableLanguages": [
+        "stylus"
+    ],
+
+    // Can with navigaton if you open files with CLI code editors
+    "files.insertFinalNewline": true,
+
+    // Never need to show these dist directories
+    "files.exclude": {
+        "**/.next": true,
+        "**/.nuxt": true
+    },
+
+    // Improve perf by not making these searchable
+    "search.exclude": {
+        "**/*.min.css": true,
+        "**/*.min.js": true,
+        "**/composer.lock": true,
+        "**/vendor": true,
+        "**/workbench": true,
+        "**/yarn.lock": true
+    },
+
+    // Treat liquid like HTML
+    "emmet.includeLanguages": {
+        "liquid": "html"
+    },
+
+    // Increase how many terminal lines can be scrolled
+    "terminal.integrated.scrollback": 4000,
+
+    // Open new windows with same dimension as last active one
+    "window.newWindowDimensions": "inherit",
+
+    // Optional --------------------------------------------------------------
+
+    // If you are coming from Atom...
+    "atomKeymap.promptV3Features": true,
+
+    // The theme I use
+    "workbench.colorTheme": "One Dark Pro",
+
+    // I don't like the space it takes up
+    "editor.minimap.enabled": false,
+
+    // Adds breadcrumbs above the editor
+    // https://code.visualstudio.com/updates/v1_26#_breadcrumbs
+    "breadcrumbs.enabled": true,
+
+    // Reduce gutter size
+    "editor.glyphMargin": false,
+
+    // Tweak line spacing
+    "editor.lineHeight": 20,
+
+    // If I was formatting html, do this
+    "html.format.wrapLineLength": 80,
+    "html.format.wrapAttributes": "preserve",
+
+    // Startup with new file
+    "workbench.startupEditor": "newUntitledFile",
+
+    // Tweak indenting in sidebar
+    "workbench.tree.indent": 16,
+
+    // Simply git usage
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+
+    // Reduce confirmations
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // Don't automatically reveal and select files when opening them.
+    "explorer.autoReveal": false,
+
+    // Don't close groups when empty
+    "workbench.editor.closeEmptyGroups": false
+}

@@ -1,0 +1,4 @@
+{
+	// Disable formatting in this project's /settings.json
+	"json.format.enable": false
+}
