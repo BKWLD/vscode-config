@@ -1,5 +1,7 @@
 {
-    // Required --------------------------------------------------------------
+    // -----------------------------------------------------------------------
+    // Required
+    // -----------------------------------------------------------------------
 
     // So you're not surprised by formatting later
     "editor.formatOnPaste": true,
@@ -16,7 +18,9 @@
     // Cleanup whitespace at the end of lines
     "files.trimTrailingWhitespace": true,
 
-    // Recommended -----------------------------------------------------------
+    // -----------------------------------------------------------------------
+    // Recommended
+    // -----------------------------------------------------------------------
 
     // Helps you debug whitespace issues
     "editor.renderWhitespace": "boundary",
@@ -61,7 +65,9 @@
     // Open new windows with same dimension as last active one
     "window.newWindowDimensions": "inherit",
 
-    // Optional --------------------------------------------------------------
+    // -----------------------------------------------------------------------
+    // Optional
+    // -----------------------------------------------------------------------
 
     // If you are coming from Atom...
     "atomKeymap.promptV3Features": true,
