@@ -2,6 +2,10 @@
 
 For collaborating on shared VS Code configuration.
 
+- [settings.json](./settings.jsonc)
+- [keybindings.json](./keybindings.json)
+- [snippets](./snippets)
+
 These files would [go here](https://code.visualstudio.com/docs/getstarted/settings#_settings-file-locations):
 
 - Windows: `%APPDATA%\Code\User\settings.json`
