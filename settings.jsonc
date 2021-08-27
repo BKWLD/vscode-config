@@ -41,9 +41,11 @@
     // Never need to show these dist directories
     "files.exclude": {
         "**/.next": true,
-        "**/.nuxt": true
-    },
-
+        "**/.nuxt": true,
+        "**/cache": true,
+        "**/config/project": true
+    }
+        
     // Improve perf by not making these searchable
     "search.exclude": {
         "**/*.min.css": true,
