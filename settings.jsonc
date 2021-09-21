@@ -51,6 +51,8 @@
         "**/*.min.css": true,
         "**/*.min.js": true,
         "**/composer.lock": true,
+        "**.log*": true,
+        "**.sql": true,
         "**/vendor": true,
         "**/workbench": true,
         "**/yarn.lock": true
