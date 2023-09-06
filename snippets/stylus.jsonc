@@ -3,9 +3,9 @@
 		"prefix": "vue transition",
 		"body": [
 			"&.v-enter-active, &.v-leave-active",
-			"	transition opacity .3s",
+			"\ttransition opacity .3s",
 			"&.v-enter, &.v-leave-to",
-			"	opacity 0"
+			"\topacity 0"
 		]
 	}
 }
